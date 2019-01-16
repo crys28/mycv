@@ -1,0 +1,52 @@
+body {
+    	padding: 0 25%;
+        background-color: lightblue;
+    }
+
+table, th, td {
+  border: 0px;
+  
+}
+
+ 
+table {
+    	border-right: 5px solid black;
+    	padding-right: 5%;
+    	
+    	background-color: white;
+    	
+    	border-left: 5px solid black; 
+    	padding-left: 5%;
+        
+    	border-top: 5px solid black;
+    	border-bottom: 5px solid black;
+
+        width: 100%;
+    }
+
+    th, td {
+  padding: 8px;
+  text-align: left;   
+}
+
+img {
+ border-radius: 50%;
+}
+
+a {
+	color: dodgerblue;
+}
+
+
+/*Clase*/
+.curriculum {font-size: 50px; color: dodgerblue;}
+.info {font-size: 20px; color: blue;}
+.nume {font-size: 20px;}
+.tdblue {border: 1px solid black; text-align: center; color: blue;}
+.td {border: 1px solid black; text-align: center;}
+.linie {border-bottom: 2px solid black;}
+.date {text-align: right; color: blue;}
+.text {text-align: right;}
+.tab1 {border-bottom: 0px;}
+.tab2 {border-top: 0px; border-bottom: 0px;}
+.tab3 {border-top: 0px; padding-top: 3%;}
