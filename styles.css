@@ -1,7 +1,8 @@
 body {
-    	padding: 0 25%;
-        background-image: url("weed.png");
-    
+    border: 0px;
+        background-image: url("14916.jpg");
+      background-size: 100%;
+      font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
 
     }
 
@@ -14,46 +15,73 @@ div.absolute {
   position: absolute;
   width: 200px;
   height: 100px;
-  border: 3px solid black;
-  background-color: yellow;
-  left: 150px;
-  bottom: 800px;
-  border-radius: 25%;
+  border: 3px solid dodgerblue;
+  background: rgba(0,0,0, 0.5);
+  margin-left: 6%;
+  margin-top: 5%;
+  border-radius: 50vw;
   text-align: center;
-  color: red;
+  color: aliceblue;
   font-weight: bold;
 } 
+
+.absolute:hover{
+  font-size: 1.1vw;
+  transition-duration: 0.4s;
+  width: 220px;
+  height: 120px;
+   margin-left: 5%;
+   font-family: Papyrus;
+   background: rgba(0,0,0, 0.8);
+}
+
 div.bgimage {
 	position: absolute;
-	right: 50px;
-  bottom: 600px;
+	margin-left: 78%;
+  margin-top: 5%;
+ filter: sepia(100%) hue-rotate(190deg) saturate(400%);
 
 }
 
- 
+.profilePic{
+  width: 13vw;height: 14vw;border: 2px solid dodgerblue;
+} 
+
+.profilePic:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  border: 2px solid white;
+}
+
 table {
-    	border-right: 5px solid black;
+    	border-right: 5px solid dodgerblue;
     	padding-right: 5%;
     	
-    	background-color: white;
+    
     	
-    	border-left: 5px solid black; 
+    	border-left: 5px solid dodgerblue; 
     	padding-left: 5%;
         
-    	border-top: 5px solid black;
-    	border-bottom: 5px solid black;
+    	border-top: 5px solid dodgerblue;
+    	border-bottom: 5px solid dodgerblue;
 
         width: 100%;
+        height: auto;
+        padding-bottom: 5%;
+
+        border-radius: 4vw;
+        background: rgba(0, 0, 0, 0.6);
     }
 
     th, td {
-  padding: 8px;
+  padding: 5px;
   text-align: left;  
   margin: 0%-auto ; 
+  border-radius: 1vw;
 }
 
 img {
- border-radius: 50%;
+ border-radius: 50vw;
 }
 
 a {
@@ -67,14 +95,23 @@ a {
 
 /*Clase*/
 .curriculum {font-size: 50px; color: dodgerblue;}
-.info {font-size: 20px; color: blue;}
-.info2 {font-size: 18px; color: blue;}
+.info {font-size: 20px; color: blue;background: rgba(0, 0, 0, 0.6);padding: 2.5%}
+.info2 {font-size: 18px; color: blue;background: rgba(0, 0, 0, 0.6);padding: 1.9%}
 .nume {font-size: 20px;}
-.tdblue {border: 1px solid black; text-align: center; color: blue;}
-.td {border: 1px solid black; text-align: center;}
-.linie {border-bottom: 2px solid black;}
+.tdblue {border: 1px solid lightblue; text-align: center; color: blue;}
+.td {border: 1px solid lightblue; text-align: center;}
+.linie {border-bottom: 7px solid black;}
 .date {text-align: right; color: blue;}
 .text {text-align: right;}
 .tab1 {border-bottom: 0px;}
 .tab2 {border-top: 0px; border-bottom: 0px;}
-.tab3 {border-top: 0px; padding-top: 3%;}
+.tab3 {border-top: 0px; padding-top: 3%;margin-bottom: 3%}
+
+
+.footer{
+  background: rgba(0,0,0, 0.5);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+}
