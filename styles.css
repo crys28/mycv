@@ -26,13 +26,15 @@ div.absolute {
 } 
 
 .absolute:hover{
-  font-size: 1.1vw;
+  font-size: 1vw;
   transition-duration: 0.4s;
   width: 220px;
-  height: 120px;
+  height: 110px;
+  padding: 1%;
    margin-left: 5%;
    font-family: Papyrus;
    background: rgba(0,0,0, 0.8);
+   padding: 1%;
 }
 
 div.bgimage {
@@ -48,7 +50,7 @@ div.bgimage {
 } 
 
 .profilePic:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 0.5s;
   border: 2px solid white;
 }
