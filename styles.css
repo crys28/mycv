@@ -11,7 +11,7 @@ table, th, td {
   
 }
 
-div.absolute {
+.absolute {
   position: absolute;
   width: 200px;
   height: 100px;
@@ -37,13 +37,47 @@ div.absolute {
    padding: 1%;
 }
 
-div.bgimage {
+@media only screen and (max-width: 1200px) and (min-width: 200px){
+  .absolute{
+     width: 180px;
+  height: 110px;
+  margin-left: 1%;
+font-size: 1.5vw;
+  }
+}
+
+
+
+.bgimage{
 	position: absolute;
 	margin-left: 78%;
   margin-top: 5%;
  filter: sepia(100%) hue-rotate(190deg) saturate(400%);
-
 }
+
+
+.bgimagesize{
+  width: 20vw;
+  height: 20vw;
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 200px){
+  .bgimagesize{
+     width: 8vw;
+  height: 8vw;
+
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 200px){
+  .bgimage{
+    margin-left: 90%;
+  }
+}
+
+
+
 
 .profilePic{
   width: 13vw;height: 14vw;border: 2px solid dodgerblue;
