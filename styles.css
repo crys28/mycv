@@ -114,6 +114,7 @@ table {
   text-align: left;  
   margin: 0%-auto ; 
   border-radius: 1vw;
+  transition-duration: 0.8s;
 }
 
 img {
@@ -126,7 +127,11 @@ a {
 
 
 
-
+td:hover{
+  background-color:   white;
+  color:  black;
+  cursor:   pointer;  
+}
 
 
 /*Clase*/
